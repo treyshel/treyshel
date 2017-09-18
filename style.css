@@ -1,5 +1,31 @@
-#title-pic {
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#welcome-screen {
+    background-image: url('http://bahb.net/downloads/nighttime1024x768.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#welcome-text {
+    line-height: 100vh;
+    min-width: 100%;
+    vertical-align: middle;
+    font-size: 10em;
+    color: #09096e;
+    font-style: italic;
+}
+
+#welcome-bg {
     width: 100%;
-    height: 60%;
-    min-height: 450px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#web-bg {
+    background-color: #09096e;
 }
