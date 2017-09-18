@@ -1,5 +1,5 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 #welcome-screen {
@@ -28,4 +28,20 @@ body {
 
 #web-bg {
     background-color: #09096e;
+}
+
+p {
+    color: white;
+    font-size: 20;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    color: white;
 }
