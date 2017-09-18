@@ -1,5 +1,6 @@
 body {
     font-family: 'Lobster', cursive;
+    background-color: #09096e;
 }
 
 #welcome-screen {
@@ -23,25 +24,54 @@ body {
 #welcome-bg {
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-#web-bg {
-    background-color: #09096e;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 p {
     color: white;
     font-size: 20;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: justify;
 }
 
-h1 {
+.desc-text {
     font-family: 'Lobster', cursive;
     color: white;
+    text-align: center;
+    font-size: 4em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     font-family: 'Cinzel', serif;
     color: white;
+}
+
+.table-text {
+    color: white;
+    font-size: 20;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+img.portfolio {
+    max-width: 100%;
+}
+
+.panel-heading {
+    font-size: 2.2em;
+}
+
+.panelbod {
+    color: black;
+    font-family: 'Comfortaa', sans-serif;
 }
