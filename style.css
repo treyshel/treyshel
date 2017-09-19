@@ -75,3 +75,7 @@ img.portfolio {
     color: black;
     font-family: 'Comfortaa', sans-serif;
 }
+
+a {
+    color: red;
+}
