@@ -5,7 +5,7 @@ body {
 
 #welcome-screen {
     /* background-image: url('http://bahb.net/downloads/nighttime1024x768.jpg'); */
-    background-image: url('https://unsplash.com/search/photos/nature?photo=AmtSx5OqmVA');
+    background-image: url('photos/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
