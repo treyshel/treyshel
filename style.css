@@ -1,24 +1,16 @@
 body {
     font-family: 'Lobster', cursive;
-    background-color: #09096e;
+    background-color: #010133;
 }
 
 #welcome-screen {
-    background-image: url('http://bahb.net/downloads/nighttime1024x768.jpg');
-    background-size: 100%;
+    /* background-image: url('http://bahb.net/downloads/nighttime1024x768.jpg'); */
+    background-image: url('photos/bg.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
     min-height: 100vh;
     text-align: center;
-}
-
-#welcome-text {
-    line-height: 100vh;
-    min-width: 100%;
-    vertical-align: middle;
-    font-size: 10em;
-    color: #09096e;
-    font-style: italic;
 }
 
 #welcome-bg {
@@ -58,9 +50,11 @@ h2 {
 }
 
 .container {
+    background-color: #09096e;
     width: 86%;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin: 4% 7%;
+    padding: 12px;
+    border-radius: 12px;
 }
 
 img.portfolio {
@@ -77,5 +71,14 @@ img.portfolio {
 }
 
 a {
-    color: red;
+    color: #d46a6a;
+}
+
+#welcome-text {
+    padding-top: 20%;
+    font-size: 1000%;
+    color: #09096e;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    display: block;
 }
