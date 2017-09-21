@@ -94,3 +94,13 @@ hr {
     color: #d46a6a;
     background-color: #d46a6a;
 }
+
+.btn {
+    font-size: 25px;
+    color: #09096e;
+    line-height: 1.5;
+    border-radius: 30px;
+    border: 5px solid;
+    background: none;
+    padding: 12px 22px;
+}
