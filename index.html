@@ -10,10 +10,6 @@
     <link rel="icon shortcut" type="image/x-icon" href="https://cdn.pixabay.com/photo/2017/01/31/17/55/check-mark-2025986__340.png"
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- google font import -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lobster" rel="stylesheet">
     <!-- special font icons -->
@@ -23,62 +19,111 @@
 </head>
 
 <body>
-    <div class="row">
-        <div id="welcome-screen">
-            <div id="welcome-bg">
-                <span href="#about-me" id="welcome-text">
-                        Michael Trey Shelton
-                </span>
-                <span id="current-position"><a href="https://basecampcodingacademy.org/" target="_blank">Base Camp Coding Academy</a></span>
-                <br />
-                <a class="btn btn-primary" href="https://drive.google.com/uc?export=download&id=0B6CqrXKWgjqAY2tOMm4zWHpQd2s" target="_blank"
-                    role="button">Download My R&eacute;sum&eacute;</a>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <span class="title-text">Michael Trey Shelton</span>
+                </li>
+                <li style="float:right">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li style="float:right">
+                    <a href="#about">About</a>
+                </li>
+                <li style="float:right">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li style="float:right">
+                    <a class="active" href="#welcome">Welcome</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row content-row" id="welcome-row">
+            <div class="col-sm-12 centered">
+                <div id="hover-text">
+                    <h1 class="h-text">Trey Shelton, Novice Software Developer</h1>
+                    <h3 class="h-text">&emsp;
+                        <span id="hover-text-replace"></span>&emsp;
+                    </h3>
+                </div>
+                <div id="icon-links">
+                    <a id="work-icon" class="fa-stack fa-xl fa-link-element">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-laptop fa-stack-1x"></i>
+                    </a>
+                    <a id="about-icon" class="fa-stack fa-xl fa-link-element">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-user fa-stack-1x"></i>
+                    </a>
+                    <a id="contact-icon" class="fa-stack fa-xl fa-link-element">
+                        <i class="fa fa-square-o fa-stack-2x"></i>
+                        <i class="fa fa-envelope fa-stack-1x"></i>
+                    </a>
+                </div>
+                <div id="bccca-text">
+                    <h1>Base Camp Coding Academy</h1>
+                    <h6>Water Valley, Mississippi</h6>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container" id="about-me">
-        <div class="row">
+        <div class="row content-row" id="work-row" hidden>
             <div class="col-lg-12">
-                <span class="desc-text">Personal Description</span>
-                <hr>
+                <h2>Projects/Programs Created:
+                    <a href="https://github.com/treyshel" target="_blank">Github Link
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </h2>
+                <h3>Python</h3>
+                <p>Throughout the course of about 4 months, we have made a variety of programs, but the projects I have accomplished
+                    below are my favorite. We had a few small programs that we created as a class our first month (June)
+                    of Base Camp.
+                </p>
+                <ul>
+                    <l1>
+                        <a href="#gas-pump" class="port-links">
+                            <i class="icon-python"></i>&nbsp;Gas Pump:</a> The first exciting program I made was the Gas Pump program in July. It
+                        was exciting to see and create programs that people actually make for real world use.
+                    </l1>
+                    <li>
+                        <a href="#student-checkin" class="port-links">
+                            <i class="icon-python"></i>&nbsp;Student Check-In:</a> Also, in July we were asked to make a student checkin program.
+                        I thought it was never going to end because I had so many files and problems, but in the end, I finally
+                        got it finished. </li>
+                    <li>
+                        <a href="#rental-store" class="port-links">
+                            <i class="icon-python"></i>&nbsp;Motorcycle Rental Store:</a> In August, we finished up our last touches in the Python
+                        3 language. I was nervous as our final project in Python became near. We had to choose any topic
+                        to make a rental store program on, so I chose to make a motorcycle rental company (the one you see
+                        below).
+                    </li>
+                    <li>
+                        <a href="#glad-game" class="port-links">
+                            <i class="icon-python"></i>&nbsp;Gladiator Game:</a>The first game we made was the gladiator game. The gladiator game
+                        wasn't as hard as I thought it was going to be to build up and add different moves.
+                        <a href="file:///home/basecamp/JavaScrcript/October/jquery-gladiator/dist/gladiator/index.html" target="_blank">Click here to see JavaScript Version</a>
+                    </li>
+                    <li>
+                        <a href="#heli-escape" class="port-links">
+                            <i class="icon-python"></i>&nbsp;HELI-ESCAPE:</a>Now, for my favorite project yet...HELI-ESCAPE! I don't think I've
+                        needed so much help or asked as many questions as I've ever had on this game. Osvaldo and I teamed
+                        up on creating this game and still seven mile brick walls. The hard work eventually paid off in the
+                        long run and we got it finished.</li>
+                </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="about-row" hidden>
             <div class="col-lg-12">
-                <h2>About Me:</h2>
+                <h2>About Me</h2>
+                <h3>High School:</h3>
                 <p>&nbsp;&nbsp;&nbsp;I was born and raised in Pontotoc, Mississippi. I've lived here all my life and I couldn't
                     have imagined growing up anywhere else. The town of Pontotoc is neither small nor entirely large. It
                     is just the perfect size to the point where everyone knows everyone and we're all, basically, one large,
                     happy family. I've played football and baseball my whole life, and I love going to Ole Miss sporting
                     events. Currently, I'm *trying* to get good at golf. In high school, I got along with all my teachers
-                    and classmates. People liked me because I was a social guy who wasn't afraid to break the ice.
+                    and classmates. I make friends easily because I'm a social guy who isn't afraid to break the ice.
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5 col-lg-offset-1">
-                <img src="trey_football.jpg" height="400" width="500">
-            </div>
-            <div class="col-lg-5">
-                <img src="trey_baseball.jpg" height="400" width="500">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <h2>Contact:</h2>
-                <p class="contact-info">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Email Address | tshelton@basecampcodingacademy.org<br
-                    />
-                    <i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;Physical Address | 315 Rocky Ford Rd (38863)<br
-                    /><i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp;&nbsp;LinkedIn Profile | <a href="https://www.linkedin.com/in/trey-shelton-a0860a149/"
-                        target="_blank">Trey Shelton</a></p>
-                <img src="http://mudandmagnolias.com/wp-content/uploads/2016/05/AU3R3583.jpg" height="400" width="550">
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="col-lg-6">
-                <h2>Job Experience:</h2>
+                <h3>Job Experience:</h3>
                 <p>&nbsp;&nbsp;&nbsp;I found out at a young age that nothing in this world is given to you. In this world, you
                     have to work for what you want. I've made money doing so many different jobs such as working for my friend,
                     working for my friend's dad, working at a grocery store, working for the University of Mississippi, plus
@@ -87,142 +132,112 @@
                     pressure wash, and I can even paint. There's more ways for money to be made on this planet than I thought
                     there was as a young man.
                 </p>
-            </div>
-        </div>
-        <br />
-        <br />
-        <div class="row">
-            <div class="col-lg-6">
-                <h2>Education info:</h2>
+                <h3>Contact:</h3>
+                <p class="contact-info">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;Email Address | tshelton@basecampcodingacademy.org
+                    <br />
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp;&nbsp;LinkedIn Profile |
+                    <a href="https://www.linkedin.com/in/trey-shelton-a0860a149/" target="_blank">Trey Shelton</a>
+                </p>
+                <h3>Education info:</h3>
                 <p>&nbsp;&nbsp;&nbsp;I am extremely happy to be a 2017 graduate from Pontotoc High! Two weeks before I graduated,
                     I had no idea what I was going to do or where I was going to go. Luckily, I heard of a computer software
                     engineer school that had just started up in 2016 called
-                    <a href="https://basecampcodingacademy.org/" target="_blank">Base Camp</a>. I am currently enrolled in
-                    the second class at BCCA (Base Camp Coding Academy) and I couldn't be any more satisfied.
+                    <a href="https://basecampcodingacademy.org/" target="_blank">Base Camp</a>. I am currently enrolled in the second class at BCCA (Base Camp Coding Academy) and I couldn't
+                    be any more satisfied.
                 </p>
-            </div>
-            <div class="col-lg-6">
-                <figure>
-                    <img src="base_camp_pic.jpg" height="400" width="550">
-                    <br />
-                    <figcaption>Base Camp is located at <a href=" https://www.google.com/maps/place/301+N+Main+St,+Water+Valley,+MS+38965/@34.1518417,-89.6340502,17z/data=!3m1!4b1!4m5!3m4!1s0x888041fd9b12dd9b:0xe4cd381bb9a02b83!8m2!3d34.1518417!4d-89.6318615 "
-                            target="_blank ">301 N Main St, Water Valley, MS 38965</a>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-lg-12 ">
-                <h2>Plans After BCCA:</h2>
-                <p>&nbsp;&nbsp;&nbsp;My classmates and I were about four months in and we were already making beginner websites
-                    as eighteen year olds. We come to school fourty hours a week for five days; furthermore, we aren't your
-                    normal young adults. Last year, everyone who attended Base Camp landed a job as an entry level software
-                    engineer. They set the tone by gaining their job offers, so we plan to keep the trend going by doing
-                    the same. I plan to get a job that I love and stick to it. I've always told myself that when I find a
-                    position in whatever career I pursued, that I was going to stay at my first job I get hired at.
+                <h3>Plans After BCCA:</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My classmates and I were about four months in and we were already making beginner
+                    websites four months after we didn't have a clue how to even look at code. We come to school fourty hours
+                    a week for five days; furthermore, we aren't your normal young adults. Last year, everyone who attended
+                    Base Camp landed a job as an entry level software engineer. They set the tone by gaining their job offers,
+                    so we plan to keep the trend going by doing the same. I plan to get a job that I love and stick to it.
+                    I've always told myself that when I find a position in whatever career I pursued, that I was going to
+                    stay at my first job I get hired at.
                 </p>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-lg-12 ">
-                <h2>Projects/Programs Created: <a href="https://github.com/treyshel " target="_blank
-                    ">Github Link <i class="fa fa-github " aria-hidden="true "></i></a></h2>
-                <p>Throughout the course of about 4 months, we have made a variety of programs, but the projects I have accomplished
-                    below are my favorite. We had a few small programs that we created as a class our first month (June)
-                    of Base Camp.
-                </p>
-                <ul>
-                    <l1>
-                        <a href="#gas-pump " class='port-links'><i class="icon-python "></i>&nbsp;Gas Pump:</a> The first
-                        exciting program I made was the Gas Pump program in July. It was exciting to see and create programs
-                        that people actually make for real world use.
-                    </l1>
-                    <li><a href="#student-checkin " class="port-links "><i class="icon-python "></i>&nbsp;Student Check-In:</a>                        Also, in July we were asked to make a student checkin program. I thought it was never going to end
-                        because I had so many files and problems, but in the end, I finally got it finished. </li>
-                    <li><a href="#rental-store " class="port-links "><i class="icon-python "></i>&nbsp;Motorcycle Rental Store:</a>                        In August, we finished up our last touches in the Python 3 language. I was nervous as our final project
-                        in Python became near. We had to choose any topic to make a rental store program on, so I chose to
-                        make a motorcycle rental company (the one you see below).</li>
-                    <li><a href="#glad-game " class="port-links "><i class="icon-python "></i>&nbsp;Gladiator Game:</a>The first
-                        game we made was the gladiator game. The gladiator game wasn't as hard as I thought it was going
-                        to be to build up and add different moves.</li>
-                    <li><a href="#heli-escape " class="port-links "><i class="icon-python "></i>&nbsp;HELI-ESCAPE:</a>Now, for
-                        my favorite project yet...HELI-ESCAPE! I don't think I've needed so much help or asked as many questions
-                        as I've ever had on this game. Osvaldo and I teamed up on creating this game and still seven mile
-                        brick walls. The hard work eventually paid off in the long run and we got it finished.</li>
-                </ul>
-            </div>
-            <div class=" col-lg-6 ">
-                <div class="panel ">
-                    <div class="panel-heading " id="heli-escape ">Heli Escape</div>
-                    <div class="panel-body ">
-                        <p class="panelbod ">A terminal based game that allows you to maneuver upward out of the deep, rocky valley. Keeps score
-                            and has 23 levels. Extremely challenging and addicting, used a list of tuples. **written in Python
-                            3**
-                        </p>
-                        <a href="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX " target="_blank "><img class="portfolio
-                    " src="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX.png " /></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 ">
-                <div class="panel ">
-                    <div class="panel-heading " id="glad-game ">Gladiator Game</div>
-                    <div class="panel-body ">
-                        <p class="panelbod ">A terminal based gladiator game that uses dictionaries, allows user to choose 1 player or 2 player.
-                            The user can choose to punch, cut, mega kick, skip, heal, or quit. Also made an Object Oriented
-                            version.
-                        </p>
-                        <a href="https://asciinema.org/a/138355 " target="_blank "><img class="portfolio " src="https://asciinema.org/a/138355.png " /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-lg-4 ">
-                <div class="panel ">
-                    <div class="panel-heading " id="gas-pump ">Gas Pump Program</div>
-                    <div class="panel-body ">
-                        <p class="panelbod ">Program that calculates the total cost for customer (gas types: Diesel, Regular, Premium, Mid-Grade)
-                            **made in Python 3 with dictionaries**</p>
-                        <a href="https://asciinema.org/a/138381 " target="_blank "><img class="portfolio " src="https://asciinema.org/a/138381.png " /></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                <div class="panel ">
-                    <div class="panel-heading " id="rental-store ">Motorcycle Rental Store</div>
-                    <div class="panel-body ">
-                        <p class="panelbod ">Also a Python program that uses dictionaries, allows customer to rent or return the motorcycle of
-                            their choice. **can check store revenue**</p>
-                        <a href="https://asciinema.org/a/138400 " target="_blank "><img class="portfolio " src="https://asciinema.org/a/138400.png " /></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 ">
-                <div class="panel ">
-                    <div class="panel-heading " id="student-checkin ">Student Checkin
-                    </div>
-                    <div class="panel-body ">
-                        <p class="panelbod ">This program lets the students of Base Camp and both instructors to check in. **instructor can see
-                            what times a specific student checked in**</p>
-                        <a href="https://asciinema.org/a/138415 " target="_blank "><img class="portfolio " src="https://asciinema.org/a/138415.png " /></a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- my js -->
+    <script src="javascript.js"></script>
 </body>
 
-
-
-
-
-
-
-
-
-
-
-
 </html>
+
+<div class=" col-lg-6">
+    <div class="panel">
+        <div class="panel-heading" id="heli-escape">Heli Escape</div>
+        <div class="panel-body">
+            <p class="panelbod">A terminal based game that allows you to maneuver upward out of the deep, rocky valley. Keeps score and has 23
+                levels. Extremely challenging and addicting, used a list of tuples. **written in Python 3**
+            </p>
+            <a href="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX" target="_blank">
+                <img class="portfolio
+                " src="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX.png" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6">
+    <div class="panel">
+        <div class="panel-heading" id="glad-game">Gladiator Game</div>
+        <div class="panel-body">
+            <p class="panelbod">A terminal based gladiator game that uses dictionaries, allows user to choose 1 player or 2 player. The user
+                can choose to punch, cut, mega kick, skip, heal, or quit. Also made an Object Oriented version.
+            </p>
+            <a href="https://asciinema.org/a/138355" target="_blank">
+                <img class="portfolio" src="https://asciinema.org/a/138355.png" />
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="panel">
+            <div class="panel-heading" id="gas-pump">Gas Pump Program</div>
+            <div class="panel-body">
+                <p class="panelbod">Program that calculates the total cost for customer (gas types: Diesel, Regular, Premium, Mid-Grade) **made
+                    in Python 3 with dictionaries**</p>
+                <a href="https://asciinema.org/a/138381" target="_blank">
+                    <img class="portfolio" src="https://asciinema.org/a/138381.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            <div class="panel-heading" id="rental-store">Motorcycle Rental Store</div>
+            <div class="panel-body">
+                <p class="panelbod">Also a Python program that uses dictionaries, allows customer to rent or return the motorcycle of their choice.
+                    **can check store revenue**</p>
+                <a href="https://asciinema.org/a/138400" target="_blank">
+                    <img class="portfolio" src="https://asciinema.org/a/138400.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel">
+            <div class="panel-heading" id="student-checkin">Student Checkin
+            </div>
+            <div class="panel-body">
+                <p class="panelbod">This program lets the students of Base Camp and both instructors to check in. **instructor can see what times
+                    a specific student checked in**</p>
+                <a href="https://asciinema.org/a/138415" target="_blank">
+                    <img class="portfolio" src="https://asciinema.org/a/138415.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <h3>JavaScript</h3>
+    </div>
+</div>
