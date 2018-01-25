@@ -8,29 +8,34 @@
 //                 |___/
 
 // hover buttons on welcome screen
-$('#work-icon').mouseenter(function() {
-    $('#hover-text-replace').text('view my portfolio');
+$("#work-icon").mouseenter(function() {
+  $("#hover-text-replace").text("view my portfolio");
 });
 
-$('#about-icon').mouseenter(function() {
-    $('#hover-text-replace').text('learn more about me');
+$("#about-icon").mouseenter(function() {
+  $("#hover-text-replace").text("learn more about me");
 });
 
-$('#contact-icon').mouseenter(function() {
-    $('#hover-text-replace').text('get in touch');
+$("#contact-icon").mouseenter(function() {
+  $("#hover-text-replace").text("get in touch");
 });
 
-$('.fa-link-element').mouseleave(function() {
-    $('#hover-text-replace').text('');
+$(".fa-link-element").mouseleave(function() {
+  $("#hover-text-replace").text("");
 });
 
 // welcome button click handlers
-$('#work-icon').click(function() {
-    $('.content-row').hide(500);
-    $('#work-row').show(500);
+$("#work-icon").click(function() {
+  $(".content-row").hide(500);
+  $("#work-row").show(500);
 });
 
-$('#about-icon').click(function() {
-    $('.content-row').hide(500);
-    $('#about-row').show(500);
+$("#about-icon").click(function() {
+  $(".content-row").hide(500);
+  $("#about-row").show(500);
+});
+
+$("#contact-icon").click(function() {
+  $(".content-row").hide(500);
+  $("#contact-row").show(500);
 });

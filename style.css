@@ -1,92 +1,105 @@
 body {
-    font-family: 'Comfortaa', sans-serif;
-    color: #333;
-    background-color: #ffe4a6;
+  font-family: "Comfortaa", sans-serif;
+  color: #333;
+  background-color: #ffe4a6;
 }
 .container {
-    background-color: white;
-    min-height: 100vh;
+  background-color: white;
+  min-height: 100vh;
 }
 
 a {
-    color: #3b8896;
+  color: #3b8896;
 }
 h1,
 h2 {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 h6 {
-    font-family: 'Lobster', cursive;
-    font-size: 2.2em;
+  font-family: "Lobster", cursive;
+  font-size: 2.2em;
 }
 
 .title-text {
-    font-family: 'Lobster', cursive;
-    font-size: 200%;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 7px 16px 0px;
-    text-decoration: none;
-    vertical-align: bottom;
+  font-family: "Lobster", cursive;
+  font-size: 200%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 16px 0px;
+  text-decoration: none;
 }
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    /* background: linear-gradient(#ffd880, #ffd880, #ffd880, #111); */
-    color: #111;
-    font-weight: bold;
-    background-color: #ffd880;
+  /* background: linear-gradient(#ffd880, #ffd880, #ffd880, #111); */
+  color: #111;
+  font-weight: bold;
+  background-color: #ffd880;
 }
 
 .fa-link-element {
-    color: #333;
+  color: #333;
 }
 
 a:hover {
-    color: #ffd880;
+  color: slategray;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .fa-xl {
-    font-size: 6em;
+  font-size: 6em;
 }
 
 #hover-text {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 #icon-links {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 
 p {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+
+.port-links {
+  color: white;
+}
+
+.portfolio {
+  width: 500px;
+}
+
+.panel {
+  margin-top: 5%;
+  background-color: lightblue;
 }
