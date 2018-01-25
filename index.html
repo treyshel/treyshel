@@ -20,21 +20,21 @@
 
 <body>
     <div class="container">
-        <div class="row nav">
-            <ul>
-                <li>
+        <div class="row">
+            <ul id="nav-ul">
+                <li class="nav-li-special">
                     <span class="title-text">Michael Trey Shelton</span>
                 </li>
-                <li style="float:right">
+                <li class="nav-li-special" style="float:right">
                     <a id="contact">Contact</a>
                 </li>
-                <li style="float:right">
+                <li class="nav-li-special" style="float:right">
                     <a id="about">About</a>
                 </li>
-                <li style="float:right">
+                <li class="nav-li-special" style="float:right">
                     <a id="projects">Projects</a>
                 </li>
-                <li style="float:right">
+                <li class="nav-li-special" style="float:right">
                     <a class="active" id="welcome">Welcome</a>
                 </li>
             </ul>
@@ -61,9 +61,9 @@
                         <i class="fa fa-envelope fa-stack-1x"></i>
                     </a>
                 </div>
-                <div id="bccca-text">
+                <div>
                     <h1>Base Camp Coding Academy</h1>
-                    <h6>Water Valley, Mississippi</h6>
+                    <h6 id="bcca-text">Water Valley, Mississippi</h6>
                 </div>
             </div>
         </div>
@@ -74,6 +74,19 @@
                         <i class="fa fa-github" aria-hidden="true"></i>
                     </a>
                 </h2>
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a id="python">Python *terminal*</a>
+                    </li>
+                    <li>
+                        <a id="javascript">Javascript</a>
+                    </li>
+                    <li>
+                        <a id="django">Python *Django*</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="python-projects" hidden>
                 <ul>
                     <li>
                         <h3>
@@ -81,7 +94,7 @@
                                 <i class="icon-python"></i>&nbsp;Gas Pump:
                             </a>
                         </h3>
-                        <p class="port-links">The first exciting program I made was the Gas Pump program in July. It was exciting to see and create
+                        <p class="proj-description">The first exciting program I made was the Gas Pump program in July. It was exciting to see and create
                             programs that people actually make for real world use.</p>
                     </li>
                     <li>
@@ -90,7 +103,7 @@
                                 <i class="icon-python"></i>&nbsp;Student Check-In:
                             </a>
                         </h3>
-                        <p class="port-links"> Also, in July we were asked to make a student checkin program. I thought it was never going to end
+                        <p class="proj-description"> Also, in July we were asked to make a student checkin program. I thought it was never going to end
                             because I had so many files and problems, but in the end, I finally got it finished.
                         </p>
                     </li>
@@ -100,7 +113,7 @@
                                 <i class="icon-python"></i>&nbsp;Motorcycle Rental Store:
                             </a>
                         </h3>
-                        <p class="port-links"> In August, we finished up our last touches in the Python 3 language. I was nervous as our final project
+                        <p class="proj-description"> In August, we finished up our last touches in the Python 3 language. I was nervous as our final project
                             in Python became near. We had to choose any topic to make a rental store program on, so I chose
                             to make a motorcycle rental company (the one you see below). </p>
                     </li>
@@ -110,7 +123,7 @@
                                 <i class="icon-python"></i>&nbsp;Gladiator Game:
                             </a>
                         </h3>
-                        <p class="port-links">The first game we made was the gladiator game. The gladiator game wasn't as hard as I thought it
+                        <p class="proj-description">The first game we made was the gladiator game. The gladiator game wasn't as hard as I thought it
                             was going to be to build up and add different moves. </p>
                     </li>
                     <li>
@@ -119,94 +132,94 @@
                                 <i class="icon-python"></i>&nbsp;HELI-ESCAPE:
                             </a>
                         </h3>
-                        <p class="port-links">
+                        <p class="proj-description">
                             Now, for my favorite project yet...HELI-ESCAPE! I don't think I've needed so much help or asked as many questions as I've
                             ever had on this game. Osvaldo and I teamed up on creating this game and still seven mile brick
                             walls. The hard work eventually paid off in the long run and we got it finished. </p>
                     </li>
                 </ul>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="panel-heading" id="heli-escape">
-                        <h3>
-                            Heli Escape
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        <p class="panelbod">A terminal based game that allows you to maneuver upward out of the deep, rocky valley. Keeps score
-                            and has 23 levels. Extremely challenging and addicting, used a list of tuples. **written in Python
-                            3**
-                        </p>
-                        <a href="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX" target="_blank">
-                            <img class="portfolio" src="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX.png" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="panel-heading" id="glad-game">
-                        <h3>
-                            Gladiator Game
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        <p class="panelbod">A terminal based gladiator game that uses dictionaries, allows user to choose 1 player or 2 player.
-                            The user can choose to punch, cut, mega kick, skip, heal, or quit. Also made an Object Oriented
-                            version.
-                        </p>
-                        <a href="https://asciinema.org/a/138355" target="_blank">
-                            <img class="portfolio" src="https://asciinema.org/a/138355.png" />
-                        </a>
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="panel-heading" id="heli-escape">
+                            <h3>
+                                Heli Escape
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="panelbod">A terminal based game that allows you to maneuver upward out of the deep, rocky valley. Keeps
+                                score and has 23 levels. Extremely challenging and addicting, used a list of tuples. **written
+                                in Python 3**
+                            </p>
+                            <a href="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX" target="_blank">
+                                <img class="portfolio" src="https://asciinema.org/a/FyGbK3bxRv4Xm59x0BBTvlTQX.png" />
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="panel-heading" id="gas-pump">
-                        <h3>
-                            Gas Pump Program
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        <p class="panelbod">Program that calculates the total cost for customer (gas types: Diesel, Regular, Premium, Mid-Grade)
-                            **made in Python 3 with dictionaries**</p>
-                        <a href="https://asciinema.org/a/138381" target="_blank">
-                            <img class="portfolio" src="https://asciinema.org/a/138381.png" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="panel-heading" id="rental-store">
-                        <h3>
-                            Motorcycle Rental Store
-                        </h3>
-                    </div>
-                    <div class="panel-body">
-                        <p class="panelbod">Also a Python program that uses dictionaries, allows customer to rent or return the motorcycle of
-                            their choice. **can check store revenue**</p>
-                        <a href="https://asciinema.org/a/138400" target="_blank">
-                            <img class="portfolio" src="https://asciinema.org/a/138400.png" />
-                        </a>
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="panel-heading" id="glad-game">
+                            <h3>
+                                Gladiator Game
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="panelbod">A terminal based gladiator game that uses dictionaries, allows user to choose 1 player or 2 player.
+                                The user can choose to punch, cut, mega kick, skip, heal, or quit. Also made an Object Oriented
+                                version.
+                            </p>
+                            <a href="https://asciinema.org/a/138355" target="_blank">
+                                <img class="portfolio" src="https://asciinema.org/a/138355.png" />
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="panel">
-                    <div class="panel-heading" id="student-checkin">
-                        <h3>
-                            Student Checkin
-                        </h3>
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="panel-heading" id="gas-pump">
+                            <h3>
+                                Gas Pump Program
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="panelbod">Program that calculates the total cost for customer (gas types: Diesel, Regular, Premium, Mid-Grade)
+                                **made in Python 3 with dictionaries**</p>
+                            <a href="https://asciinema.org/a/138381" target="_blank">
+                                <img class="portfolio" src="https://asciinema.org/a/138381.png" />
+                            </a>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <p class="panelbod">This program lets the students of Base Camp and both instructors to check in. **instructor can see
-                            what times a specific student checked in**</p>
-                        <a href="https://asciinema.org/a/138415" target="_blank">
-                            <img class="portfolio" src="https://asciinema.org/a/138415.png" />
-                        </a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="panel-heading" id="rental-store">
+                            <h3>
+                                Motorcycle Rental Store
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="panelbod">Also a Python program that uses dictionaries, allows customer to rent or return the motorcycle
+                                of their choice. **can check store revenue**</p>
+                            <a href="https://asciinema.org/a/138400" target="_blank">
+                                <img class="portfolio" src="https://asciinema.org/a/138400.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="panel">
+                        <div class="panel-heading" id="student-checkin">
+                            <h3>
+                                Student Checkin
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <p class="panelbod">This program lets the students of Base Camp and both instructors to check in. **instructor can
+                                see what times a specific student checked in**</p>
+                            <a href="https://asciinema.org/a/138415" target="_blank">
+                                <img class="portfolio" src="https://asciinema.org/a/138415.png" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,40 +263,13 @@
             </div>
         </div>
         <div class="row content-row" id="contact-row" hidden>
-            <div class="col-lg-12">
+            <div class="col-lg-4">
                 <h1>Contact:</h1>
                 <p>
                     Email Address | tshelton@basecampcodingacademy.org
                     <br> LinkedIn Profile |
                     <a href="https://www.linkedin.com/feed/">Trey Shelton </a>
                 </p>
-                <ul class="nav nav-tabs">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" id="drop">Menu 1
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" hidden>
-                            <li>
-                                <a>Submenu 1-1</a>
-                            </li>
-                            <li>
-                                <a href="#">Submenu 1-2</a>
-                            </li>
-                            <li>
-                                <a href="#">Submenu 1-3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a id="dropa">Menu 2</a>
-                    </li>
-                    <li>
-                        <a href="#">Menu 3</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>

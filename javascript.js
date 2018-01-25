@@ -77,7 +77,30 @@ $("#contact-icon").click(function() {
   $("#contact-row").show(500);
 });
 
-$("#drop").click(function() {
-  $("#dropa").hide();
-  $(".dropdown-menu").show();
+//projects pills
+$("#python").click(function() {
+  $("#javascript-projects").hide(500);
+  $("#django-projects").hide(500);
+  $("#javascript").removeClass("active");
+  $("#django").removeClass("active");
+  $("#python").addClass("active");
+  $("#python-projects").show();
+});
+
+$("#javascript").click(function() {
+  $("#projects-container").hide(500);
+  $("#django-projects").hide(500);
+  $("#python").removeClass("active");
+  $("#django").removeClass("active");
+  $("#javascript").addClass("active");
+  $("#javascript-projects").show();
+});
+
+$("#django").click(function() {
+  $("#projects-container").hide(500);
+  $("#javascript-projects").hide(500);
+  $("#javascript").removeClass("active");
+  $("#python").removeClass("active");
+  $("#django").addClass("active");
+  $("#django-projects").show();
 });

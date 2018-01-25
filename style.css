@@ -10,13 +10,14 @@ body {
 
 a {
   color: #3b8896;
+  cursor: pointer;
 }
 h1,
 h2 {
   font-weight: bolder;
 }
 
-h6 {
+#bcca-text {
   font-family: "Lobster", cursive;
   font-size: 2.2em;
 }
@@ -31,7 +32,7 @@ h6 {
   text-decoration: none;
 }
 
-ul {
+#nav-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -43,7 +44,7 @@ li {
   float: left;
 }
 
-li a {
+.nav-li-special a {
   display: block;
   color: white;
   text-align: center;
@@ -51,7 +52,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.nav-li-special a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -68,6 +69,7 @@ li a:hover:not(.active) {
 
 a:hover {
   color: slategray;
+  text-decoration: none;
 }
 
 .centered {
@@ -92,8 +94,8 @@ p {
   font-size: 1.5em;
 }
 
-.port-links {
-  color: white;
+.proj-description {
+  color: #333;
 }
 
 .portfolio {
@@ -103,4 +105,8 @@ p {
 .panel {
   margin-top: 5%;
   background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
 }
