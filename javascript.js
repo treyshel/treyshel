@@ -88,7 +88,7 @@ $("#python").click(function() {
 });
 
 $("#javascript").click(function() {
-  $("#projects-container").hide(500);
+  $("#python-projects").hide(500);
   $("#django-projects").hide(500);
   $("#python").removeClass("active");
   $("#django").removeClass("active");
@@ -97,10 +97,15 @@ $("#javascript").click(function() {
 });
 
 $("#django").click(function() {
-  $("#projects-container").hide(500);
+  $("#python-projects").hide(500);
   $("#javascript-projects").hide(500);
   $("#javascript").removeClass("active");
   $("#python").removeClass("active");
   $("#django").addClass("active");
   $("#django-projects").show();
+});
+
+//pics
+$("#django-pics").click(function() {
+  $("#pics-from-d").show();
 });
