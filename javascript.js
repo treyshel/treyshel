@@ -107,5 +107,9 @@ $("#django").click(function() {
 
 //pics
 $("#django-pics").click(function() {
-  $("#pics-from-d").show();
+  $("#pics-from-django").show();
+});
+
+$("#javascript-pics").click(function() {
+  $("#pics-from-javascript");
 });

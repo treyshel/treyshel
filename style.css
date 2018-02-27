@@ -102,11 +102,20 @@ p {
   width: 500px;
 }
 
-.panel {
-  margin-top: 5%;
-  background-color: lightblue;
-}
-
 ul {
   list-style-type: none;
+}
+
+.bullets {
+  list-style-type: square;
+  font-size: 2vh;
+}
+
+.panel-body-yellow {
+  background-color: #ffe4a6;
+}
+
+.panel-body-slategrey {
+  background-color: rgb(169, 171, 173);
+  margin-top: 5%;
 }
