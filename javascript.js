@@ -109,7 +109,3 @@ $("#django").click(function() {
 $("#django-pics").click(function() {
   $("#pics-from-django").show();
 });
-
-$("#javascript-pics").click(function() {
-  $("#pics-from-javascript");
-});

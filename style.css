@@ -119,3 +119,17 @@ ul {
   background-color: rgb(169, 171, 173);
   margin-top: 5%;
 }
+
+li h3 a {
+  color: black;
+  font-weight: bolder;
+}
+
+.project-images {
+  height: 15em;
+  width: 25em;
+}
+
+.text-float-left {
+  float: left;
+}
